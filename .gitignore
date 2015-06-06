@@ -1,0 +1,7 @@
+vendor/
+.buildpath
+.env
+.idea/
+.project
+.settings/
+.vagrant/

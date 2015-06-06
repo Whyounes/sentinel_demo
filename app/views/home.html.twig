@@ -1,0 +1,41 @@
+{% extends "app.html.twig" %}
+
+{% block content %}
+<div class="container">
+    <section class="signup_form row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="login-panel panel panel-default">
+                <div class="panel-body">
+                    <form action="/" method="POST" role="form" id="subscriptionForm">
+                        <fieldset>
+                            <legend>Sign up</legend>
+                            <div class="col-md-12 form-group">
+                                <input class="form-control" placeholder="First name" name="firstname" type="text" autofocus value="">
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                <input class="form-control" placeholder="Last name" name="lastname" type="text" autofocus value="">
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                <input class="form-control" placeholder="E-mail" name="email" type="email" value="">
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                            </div>
+
+                            <div class="col-md-12 form-group">
+                                <input class="form-control" placeholder="Confirm Password" name="password_confirmation" type="password" value="">
+                            </div>
+                        </fieldset>
+
+                        <i class="divider"></i>
+                        <button class="btn btn-primary mbtn" style="margin-left: 15px;">Join</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}
