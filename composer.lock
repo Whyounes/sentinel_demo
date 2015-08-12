@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d79c787fb2a5bf6e6530614bcc5d79d5",
+    "hash": "39a3454bd25b414a4adc947d179e925f",
     "packages": [
         {
             "name": "cartalyst/sentry",
@@ -315,16 +315,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v5.0.28",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "dd7bd24a0240607e1de36cfe8d43335653d1536c"
+                "reference": "c571ace791a601bf1bb3f9cf125eb86df00bf3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/dd7bd24a0240607e1de36cfe8d43335653d1536c",
-                "reference": "dd7bd24a0240607e1de36cfe8d43335653d1536c",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/c571ace791a601bf1bb3f9cf125eb86df00bf3ae",
+                "reference": "c571ace791a601bf1bb3f9cf125eb86df00bf3ae",
                 "shasum": ""
             },
             "require": {
@@ -337,7 +337,6 @@
             "suggest": {
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
                 "illuminate/console": "Required to use the database commands (5.0.*).",
-                "illuminate/events": "Required to use the observers with Eloquent (5.0.*).",
                 "illuminate/filesystem": "Required to use the migrations (5.0.*)."
             },
             "type": "library",
@@ -362,14 +361,13 @@
                 }
             ],
             "description": "The Illuminate Database package.",
-            "homepage": "http://laravel.com",
             "keywords": [
                 "database",
                 "laravel",
                 "orm",
                 "sql"
             ],
-            "time": "2015-04-19 09:23:09"
+            "time": "2015-02-02 19:27:30"
         },
         {
             "name": "illuminate/support",

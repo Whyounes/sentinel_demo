@@ -10,7 +10,7 @@ $app->container->twig = new Twig_Environment($app->container->twigLoader, array(
 $capsule = new \Illuminate\Database\Capsule\Manager();
 $capsule->addConnection([
     'driver' => 'mysql',
-    'host' => 'localhost',
+    'host' => '192.168.59.103',
     'database' => 'capsule',
     'username' => 'root',
     'password' => 'root',

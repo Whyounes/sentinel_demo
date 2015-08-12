@@ -78,7 +78,7 @@ $app->post('/', function () use ($app) {
     $user->addGroup($group);
     $user->save();
     //mail($data['email'], "Activate your account", "Click on the link below \n <a href='http://vaprobash.dev/user/activate/{$user->getActivationCode()}'>Activate your account</a>");
-    echo 'Please check your email to complete your account registration.';
+    echo "Please check your email to complete your account registration. (or just use this <a href='http://vaprobash.dev/user/activate/{$user->getActivationCode()}'>Activate your account</a>)";
 });
 
 $app->get('/user/activate/:code', function ($code) use ($app) {
