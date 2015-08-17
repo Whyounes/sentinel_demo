@@ -19,4 +19,4 @@ $capsule->addConnection([
 ]);
 $capsule->bootEloquent();
 
-$app->container->sentry = \Cartalyst\Sentry\Facades\Native\Sentry::createSentry();
+$app->container->sentinel = (new \Cartalyst\Sentinel\Native\Facades\Sentinel())->getSentinel();
