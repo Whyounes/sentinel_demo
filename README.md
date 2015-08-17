@@ -1,2 +1,2 @@
-# sentry_demo
-Small demo for Sitepoint Sentry package article
+# Sentinel Demo
+Small demo for Sitepoint Sentinel package article
